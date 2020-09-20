@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance App | theuicode.com</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="pt-5 px-2 d-flex flex-row justify-content-between">
+            <i class="fas fa-arrow-left nav-icon"></i>
+            <i class="far fa-bell nav-icon position-relative">
+                <div class="dot position-absolute"></div>
+            </i>
+        </div>
+
+        <div class="text-center mt-4">
+            <span class="heading">Statistics</span>
+        </div>
+
+        <div class="text-center">
+            <span class="sub-heading">See your money information in real time</span>
+        </div>
+
+        <div class="d-flex flex-row menu mt-5 mx-2 justify-content-between align-items-center">
+            <span class="px-4 py-2 active">Expenses</span>
+            <span class="px-4 py-2">Income</span>
+            <span class="px-4 py-2">Savings</span>
+        </div>
+
+        <div class="d-flex flex-row mt-3 mx-2 align-items-center">
+            <span class="filter px-3 py-3 mr-2">Daily</span>
+            <span class="filter px-3 py-3 mr-2 filter-active">Weekly</span>
+            <span class="add-filter px-3 py-3">
+                <i class="fas fa-plus filter-icon"></i>
+                Add Filter</span>
+        </div>
+
+        <div class="d-flex flex-column chart-bg mx-2 mt-3">
+            <div class="d-flex flex-row justify-content-between align-items-center p-4">
+                <span class="expense-label col-2">Your Expenses</span>
+                <span class="expense">$460</span>
+            </div>
+            <div class="d-flex flex-row justify-content-between align-items-end p-4" style="height:250px;">
+                <div class="d-flex flex-column align-items-center">
+                    <div class="position-relative">
+                        <div class="bar-1 position-absolute" style="height: 170px;"></div>
+                        <div class="bar-2" style="height: 200px;"></div>
+                    </div>
+                    <span class="chart-label mt-3">Mon</span>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <div class="position-relative">
+                        <div class="bar-1 position-absolute" style="height: 110px;"></div>
+                        <div class="bar-2" style="height: 140px;"></div>
+                    </div>
+                    <span class="chart-label mt-3">Tue</span>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <div class="position-relative">
+                        <div class="bar-1 position-absolute" style="height: 60px;"></div>
+                        <div class="bar-2" style="height: 90px;"></div>
+                    </div>
+                    <span class="chart-label mt-3">Wed</span>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <div class="position-relative">
+                        <div class="bar-1 position-absolute" style="height: 30px;"></div>
+                        <div class="bar-2" style="height: 60px;"></div>
+                    </div>
+                    <span class="chart-label mt-3">Thu</span>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <div class="position-relative">
+                        <div class="bar-1 position-absolute" style="height: 100px;"></div>
+                        <div class="bar-2" style="height: 130px;"></div>
+                    </div>
+                    <span class="chart-label mt-3">Fri</span>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <div class="position-relative">
+                        <div class="bar-1 position-absolute" style="height: 40px;"></div>
+                        <div class="bar-2" style="height: 70px;"></div>
+                    </div>
+                    <span class="chart-label mt-3">Sat</span>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <div class="position-relative">
+                        <div class="bar-1 position-absolute" style="height: 60px;"></div>
+                        <div class="bar-2" style="height: 90px;"></div>
+                    </div>
+                    <span class="chart-label mt-3">Sun</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
